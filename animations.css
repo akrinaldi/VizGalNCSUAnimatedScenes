@@ -1,1 +1,34 @@
+.scene {
+    display: none; /* Initially, both scenes are hidden */
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Example animations */
+  @keyframes scene1Animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+  @keyframes scene2Animation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
+
+
+ #scene1 {
+    animation: scene1Animation 2s ease-in-out;
+  }
+  
+  #scene2 {
+    animation: scene2Animation 2s ease-in-out;
+  }
