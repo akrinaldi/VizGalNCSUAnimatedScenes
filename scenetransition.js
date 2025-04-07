@@ -4,14 +4,19 @@ function showScene(sceneNumber) {
     // Hide scenes on initialization
     document.getElementById('scene1').style.display = 'none';
     document.getElementById('scene2').style.display = 'none';
+   document.getElementById('scene3').style.display = 'none';
+   // Add additional scenes here
 
   
     // Show the chosen scene
     if (sceneNumber === 1) {
       document.getElementById('scene1').style.display = 'block';
-    } else {
+    } else if(sceneNumber===2) {
+      document.getElementById('scene2').style.display = 'block';
+    } else if(sceneNumber===3) {
       document.getElementById('scene2').style.display = 'block';
     }
+ // Add additional scenes here
   }
   
   // Start the display
@@ -20,7 +25,8 @@ function showScene(sceneNumber) {
   // Function to change scenes every 2 minutes
   setInterval(() => {
     // Switch scenes
-    currentScene = currentScene === 1 ? 2 : 1;
+   // In the 1 ? X : 1 function, replace X with your total number of scenes
+    currentScene = currentScene === 1 ? X : 1;
     showScene(currentScene);
   }, 120000);
   
