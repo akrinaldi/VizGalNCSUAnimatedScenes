@@ -5,7 +5,8 @@ function showScene(sceneNumber) {
     document.getElementById('scene1').style.display = 'none';
     document.getElementById('scene2').style.display = 'none';
    document.getElementById('scene3').style.display = 'none';
-   // Add additional scenes here
+   // Add additional scenes here 
+  // document.getElementById('scene#).style.display = 'none';
 
   
     // Show the chosen scene
@@ -14,9 +15,12 @@ function showScene(sceneNumber) {
     } else if(sceneNumber===2) {
       document.getElementById('scene2').style.display = 'block';
     } else if(sceneNumber===3) {
-      document.getElementById('scene2').style.display = 'block';
+      document.getElementById('scene3').style.display = 'block';
     }
  // Add additional scenes here
+ //  else if(sceneNumber===#) {
+      //document.getElementById('scene#').style.display = 'block';
+    //}
   }
   
   // Start the display
