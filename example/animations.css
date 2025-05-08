@@ -1,0 +1,39 @@
+.scene {
+    display: none; /* Initially, scenes are hidden */
+    width: 100%;
+    height: 100vh;
+  }
+  
+  /* Example animations */
+  @keyframes sceneAnimation {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+  
+/*Do not edit CSS above this line*/
+
+
+ #scene1 {
+    animation: sceneAnimation 2s ease-in-out;
+  }
+  
+  #scene2 {
+    animation: sceneAnimation 2s ease-in-out;
+  }
+
+  #scene3 {
+    animation: sceneAnimation 2s ease-in-out;
+  }
+
+  #scene4 {
+    animation: sceneAnimation 2s ease-in-out;
+  }
+
+/* add additional scenes with sceneAnimation as needed/
+
+
+/*Add your custom css and scene animations here*/
