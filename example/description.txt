@@ -1,0 +1,1 @@
+This example does a transition between four scenes every 5s
