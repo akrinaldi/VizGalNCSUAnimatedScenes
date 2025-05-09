@@ -30,9 +30,18 @@ function showScene(sceneNumber) {
   showScene(currentScene);
   
 
+// loop to get scene range
+function range(start, end) {
+    const result = [];
+    for (let i = start; i <= end; i++) {
+      result.push(i);
+    }
+    return result;
+  }
+
   // set scene array for looping
-// add numbers in the range for your number of scenes
-  const scenes = [1, 2, X, X];
+// replace X with the number of scenes in your html
+  const scenes = range(1,X);
   let currentSceneIndex = 0;
   
   // function to move to next scene
