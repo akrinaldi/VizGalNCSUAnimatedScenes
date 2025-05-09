@@ -30,7 +30,7 @@ function showScene(sceneNumber) {
   showScene(currentScene);
   
 
-// loop to get scene range
+// loop to create scene range
 function range(start, end) {
     const result = [];
     for (let i = start; i <= end; i++) {
