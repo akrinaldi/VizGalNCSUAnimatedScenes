@@ -23,9 +23,18 @@ function showScene(sceneNumber) {
   // start the display
   showScene(currentScene);
   
+// loop to create scene range
+function range(start, end) {
+    const result = [];
+    for (let i = start; i <= end; i++) {
+      result.push(i);
+    }
+    return result;
+  }
+
 
   // set scene array for looping
-  const scenes = [1, 2, 3, 4];
+  const scenes = range(1,4);
   let currentSceneIndex = 0;
   
   // function to move to next scene
