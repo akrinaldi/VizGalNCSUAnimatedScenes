@@ -17,23 +17,10 @@
 /*Do not edit CSS above this line*/
 
 
- #scene1 {
+ #scene1, #scene2, #scene3, #scene4 {
     animation: sceneAnimation 2s ease-in-out;
   }
   
-  #scene2 {
-    animation: sceneAnimation 2s ease-in-out;
-  }
-
-  #scene3 {
-    animation: sceneAnimation 2s ease-in-out;
-  }
-
-  #scene4 {
-    animation: sceneAnimation 2s ease-in-out;
-  }
-
-/* add additional scenes with sceneAnimation as needed/
 
 
 /*Add your custom css and scene animations here*/
