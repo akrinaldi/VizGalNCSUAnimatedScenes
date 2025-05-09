@@ -17,14 +17,9 @@
 /*Do not edit CSS above this line*/
 
 
- #scene1 {
-    animation: scene1Animation 2s ease-in-out;
-  }
-  
-  #scene2 {
-    animation: scene2Animation 2s ease-in-out;
+ #scene1, #scene2, #scene3 /*add your list of scenes here*/ {
+    animation: sceneAnimation 2s ease-in-out;
   }
 
-/*Add additional scenes with sceneAnimation as needed*/
 
 /*Add your custom css and scene animations here*/
